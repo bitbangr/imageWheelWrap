@@ -1,0 +1,31 @@
+Wheel Weave Notes
+
+Thurs Aug 1
+
+Generated list of thread weave points using
+Processing - imageWrapAlgorithm
+Generated a byte dat file with bytes.  (using 0-200 so byte is most efficient storage mechanism)
+Used Hex Fiend to open dat file and copy into Text Wrangler
+Used copy paste for " " to ",0x" to conver to text HEX String ie "7E BF 3D" becomes "0x7E,0xBF,0x3D"
+Copied this string to Arduino JeanneNurseGradProgMemArray sketch and used this as 
+conts byte thread_Points[] PROGMEM array.  IE Stored in 32K Flash Memory for Arduino
+ Code just pumps first and last 100 of this array to serial port for verification.
+ 
+ Next steps
+ 
+ 1) Map each point visually on the LED Wheel for threading
+ 2) Hook up an button to advance thread (or reverse thread)
+ 2a) Hook up a 2 line display to show progress meter 
+ 4) Do a cool intro LED blinky display before beginning
+ 5) Do a cool finihed LED blinky display 
+ 3) Setup stop motion on iphone and capture -
+ 		30 second intro real time with LED Blinky Intro
+ 		1 minute speed up  (6 hours) 30 Frames in 6 hours 5 frame per hr??? Or 1 Frame every 12 minutes??? 
+ 		30 second end real time wht LED Blinky End
+ 		30 second view of finish project
+ 	Add music and show it
+ 	
+ 	
+ 		
+ 
+ 
